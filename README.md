@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Evaluation Platform
+This is a snapshot of an evaluation platform developed as part of an online education platform </br>
 
-## Getting Started
+## Technologies
+- TypeScript
+- React
+- NodeJS
+- NextJS
+- NextAuth
+- Mongo DB/Mongoose
 
-First, run the development server:
+## Screenshots
+### Dashboard
+![overview](https://github.com/user-attachments/assets/cd8d1bff-a013-4000-b95a-973fdd591ed1)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Questionnaire
+![survey](https://github.com/user-attachments/assets/8c6a57f7-4b54-4107-bb00-6eaba849b0b9)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Evaluation Report
+![report1](https://github.com/user-attachments/assets/7f92c391-54b4-4e31-8d61-c62208243d26)
+![report2](https://github.com/user-attachments/assets/07519bb7-876f-4306-9535-d3ea56797654)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Survey
+![report3](https://github.com/user-attachments/assets/9ace45ff-c5d6-4752-b67f-b70a7b5be017)
