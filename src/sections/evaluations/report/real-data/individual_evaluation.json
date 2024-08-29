@@ -1,0 +1,96 @@
+{
+    "success": true,
+    "data": {
+        "uuid": "49ee130b-6bd0-48ab-8a8c-41c51e5f96ea",
+        "school_id": 41,
+        "school_name": "实验小学",
+        "start_date": "2024-01-01T16:00:00.000Z",
+        "end_date": "2024-01-31T16:00:00.000Z",
+        "status": 2,
+        "year": 2024,
+        "term": 1,
+        "survey_score": 0.8,
+        "secure_response": 1,
+        "type": "bureau",
+        "class_metrics": [
+            {
+                "name": "测试表格86868 - changed with no version++",
+                "level": 0,
+                "version": 1,
+                "subjects": null,
+                "metric_id": "09a0aece-a25097ba-d366b943-307a6242",
+                "max_points": 100,
+                "total_items": 16,
+                "target_group": -1,
+                "average_score": 0.85,
+                "total_responses": 2,
+                "target_responses": 15
+            },
+            {
+                "name": "小学语文学科好课堂教学评价表",
+                "level": 0,
+                "version": 1,
+                "subjects": null,
+                "metric_id": "49099594-143e8490-f12429af-ac1a0810",
+                "max_points": 90,
+                "total_items": 14,
+                "target_group": -1,
+                "average_score": null,
+                "total_responses": 0,
+                "target_responses": 15
+            }
+        ],
+        "prep_metrics": [
+            {
+                "name": "小学教研备课组建设评价表",
+                "level": 0,
+                "version": 1,
+                "subjects": null,
+                "metric_id": "83192bde-da37ec2e-71b4009f-57d3fcf7",
+                "max_points": 18,
+                "total_items": 8,
+                "target_group": -1,
+                "average_score": 0.7777777777777778,
+                "total_responses": 1,
+                "target_responses": 10
+            }
+        ],
+        "other_metrics": null,
+        "surveys": [
+            {
+                "title": "Student Survey",
+                "levels": null,
+                "version": 1,
+                "survey_id": "c3ba5089-6e3f-4333-b3d8-2ca22b3af755",
+                "target_group": -1,
+                "total_questions": 3,
+                "total_responses": 3,
+                "target_responses": 12
+            },
+            {
+                "title": "Teacher Survey",
+                "levels": null,
+                "version": 1,
+                "survey_id": "8ac1bf29-2bb7-417a-9b34-d7be309a71db",
+                "target_group": -1,
+                "total_questions": 3,
+                "total_responses": 2,
+                "target_responses": 12
+            }
+        ],
+        "forms": null,
+        "stats": {
+            "form_target": 0,
+            "form_response": 0,
+            "survey_target": 24,
+            "survey_response": 5,
+            "prep_metric_target": 10,
+            "class_metric_target": 30,
+            "other_metric_target": 0,
+            "prep_metric_response": 1,
+            "class_metric_response": 2,
+            "other_metric_response": 0
+        },
+        "evaluators": []
+    }
+}

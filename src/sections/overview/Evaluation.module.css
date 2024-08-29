@@ -1,0 +1,456 @@
+
+.evaluationCard {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+
+}
+
+
+.completePercent1{
+color: #7669DF;
+font-family: Futura;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+margin: -2.5px 0 0 0;
+}
+
+.completePercent2{
+color: #4CA6E6;
+font-family: Futura;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+margin: -2.5px 0 0 0;
+}
+
+.completePercent3{
+color: #93D2EE;
+font-family: Futura;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+margin: -2.5px 0 0 0;
+}
+
+  
+
+
+
+
+  .parentCard {
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 56.25%;  
+
+    position: relative;
+
+  }
+
+  .parentCard > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .schoolEvalsCardR1,
+  .schoolEvalsCardR2,
+  .schoolIcon,
+  .schoolEvalsCardR3,
+  .schoolEvalsCardR4,
+  .schoolEvalsCardR5,
+  .schoolEvalsCardText {
+    position: absolute;
+  }
+
+
+  .schoolEvalsCardR1 {
+
+    border-radius: 15px;
+    background: #D9D9D9;
+
+    width: 100%;
+    height: 100%; 
+
+  }
+
+  .schoolEvalsCardR2 {
+
+    width: 100%;
+    height: 100%;
+  
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    border: 1px solid #FFFAF0;
+    background: linear-gradient(263deg, #07131B 19.09%, rgba(11, 21, 23, 0.99) 82.32%);
+
+    backdrop-filter: blur(30px);
+
+  }
+
+  .schoolIcon {
+
+    background-image: url('/assets/home/school-icon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 60%;
+    /* top: 17.5%;
+    left: 32.5%; */
+    opacity: 0.8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  .schoolEvalsCardR3 {
+
+    transform: rotate(-117.764deg);
+    flex-shrink: 0;
+
+    width: 40%;
+    height: 60%;
+
+  }
+
+  .schoolEvalsCardR4 {
+
+
+    width: 26%;
+    height: 70%;
+
+    transform: rotate(-33.715deg);
+    flex-shrink: 0;
+    border-radius: 10px;
+    opacity: 0.35;
+    background: linear-gradient(180deg, #62B3EB 0%, rgba(98, 179, 235, 0.00) 100%);
+    top: -7%;
+    left: -9.3%;
+
+  }
+
+  .schoolEvalsCardR5 {
+
+    width: 40.4%;
+    height: 50.4%;
+
+    transform: rotate(28.458deg);
+    flex-shrink: 1;
+    border-radius: 10px;
+    opacity: 0.35;
+    background: linear-gradient(180deg, #62B3EB 0%, rgba(98, 179, 235, 0.00) 100%);
+    top: 73%;
+    left: 67%;
+
+
+  }
+
+  
+  .courseEvalsCardR1,
+  .courseEvalsCardR2,
+  .courseIcon,
+  .courseEvalsCardR3,
+  .courseEvalsCardR4,
+  .courseEvalsCardR5,
+  .title {
+    position: absolute;
+  }
+
+
+  .courseEvalsCardR1 {
+
+    border-radius: 15px;
+    background: #D9D9D9;
+
+    width: 100%;
+    height: 100%; 
+
+  }
+
+  .courseEvalsCardR2 {
+
+    width: 100%;
+    height: 100%;
+  
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    border: 1px solid #FFFAF0;
+    background: linear-gradient(263deg, rgba(9, 7, 27, 0.90) 19.09%, rgba(2, 3, 37, 0.89) 82.32%);
+    box-shadow: 10px 4px 15px 13px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(30px);
+
+  }
+
+  .courseIcon {
+
+    background-image: url('/assets/home/course-icon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 60%;
+    opacity: 0.8;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  .courseEvalsCardR3 {
+
+    transform: rotate(-117.764deg);
+    flex-shrink: 0;
+
+    width: 40%;
+    height: 60%;
+
+  }
+
+  .courseEvalsCardR4 {
+
+    width: 26%;
+    height: 70%;
+
+    transform: rotate(80deg);
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(158, 0, 255, 0.40) 0%, rgba(158, 0, 255, 0.00) 100%);
+
+    top: -12%;
+    left: 79.3%;
+
+  }
+
+  .courseEvalsCardR5 {
+
+    width: 69px;
+    height: 79px;
+
+
+    fill: linear-gradient(180deg, #8661E4 0%, rgba(98, 179, 235, 0.00) 100%);
+    opacity: 0.65;
+
+    top: 73%;
+    left: 0;
+
+
+  }
+
+  .surveyCardR1,
+  .surveyCardR2,
+  .courseIcon,
+  .surveyCardR3,
+  .surveyCardR4,
+  .surveyCardR5,
+  .surveyCardText {
+    position: absolute;
+  }
+
+
+  .surveyCardR1 {
+
+    border-radius: 15px;
+    background: #D9D9D9;
+
+    width: 100%;
+    height: 100%; 
+
+  }
+
+  .surveyCardR2 {
+
+    width: 100%;
+    height: 100%;
+  
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    border: 1px solid #FFFAF0;
+    background: linear-gradient(263deg, rgba(21, 7, 27, 0.90) 19.09%, rgba(5, 2, 36, 0.89) 82.32%);
+
+    box-shadow: 10px 4px 15px 13px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(30px);
+
+  }
+
+  .surveyIcon {
+    position: absolute;
+    background-image: url('/assets/home/survey-icon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 60%;
+    /* top: 17.5%;
+    left: 32.5%; */
+    opacity: 0.8;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  .surveyCardR3 {
+
+    transform: rotate(-117.764deg);
+    flex-shrink: 0;
+
+    width: 40%;
+    height: 60%;
+
+  }
+
+  .surveyCardR4 {
+
+    width: 26%;
+    height: 70%;
+
+    transform: rotate(3.715deg);
+
+    fill: linear-gradient(180deg, #0009D6 0%, rgba(98, 179, 235, 0.00) 100%);
+    opacity: 0.55;
+
+    top: -7%;
+    left: 0;
+
+  }
+
+  .surveyCardR5 {
+
+    width: 40.4%;
+    height: 50.4%;
+
+    transform: rotate(28.458deg);
+    flex-shrink: 1;
+
+    border-radius: 10px;
+    opacity: 0.35;
+    background: linear-gradient(180deg, #62B3EB 0%, rgba(98, 179, 235, 0.00) 100%);
+
+    top: 73%;
+    left: 67%;
+
+
+  }
+
+
+
+  .otherEvalFormsCardR1,
+  .otherEvalFormsCardR2,
+  .otherEvalIcon,
+  .otherEvalFormsCardR3,
+  .otherEvalFormsCardR4,
+  .otherEvalFormsCardR5,
+  .title {
+    position: absolute;
+  }
+
+
+  .otherEvalFormsCardR1 {
+
+    border-radius: 15px;
+    background: #D9D9D9;
+
+    width: 100%;
+    height: 100%; 
+
+  }
+
+  .otherEvalFormsCardR2 {
+
+    width: 100%;
+    height: 100%;
+  
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    border: 1px solid #FFFAF0;
+    background: linear-gradient(263deg, rgba(3, 21, 10, 0.95) 19.09%, rgba(2, 37, 7, 0.94) 82.32%);
+
+    box-shadow: 10px 4px 15px 13px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(30px);
+
+  }
+
+  .otherEvalIcon {
+
+    background-image: url('/assets/home/other-eval-icon.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 55%;
+    /* top: 17.5%;
+    left: 32.5%; */
+    opacity: 0.8;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  .otherEvalFormsCardR3 {
+
+    transform: rotate(-117.764deg);
+    flex-shrink: 0;
+
+    width: 40%;
+    height: 60%;
+
+  }
+
+  .otherEvalFormsCardR4 {
+
+    width: 26%;
+    height: 70%;
+
+    transform: rotate(-47.002deg);
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(159, 203, 68, 0.40) 0%, rgba(0, 209, 255, 0.00) 100%);
+
+    top: -10%;
+    left: 89.3%;
+
+  }
+
+  .otherEvalFormsCardR5 {
+
+    width: 40.4%;
+    height: 50.4%;
+
+    transform: rotate(-67.349deg);
+    flex-shrink: 1;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0.40) 0%, rgba(158, 0, 255, 0.00) 100%);
+
+    top: 73%;
+    left: -17%;
+
+
+  }
+
+

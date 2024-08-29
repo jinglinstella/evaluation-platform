@@ -1,0 +1,162 @@
+{
+    "success": true,
+    "data": {
+        "survey": {
+            "uuid": "8ac1bf29-2bb7-417a-9b34-d7be309a71db",
+            "version": 1,
+            "data": {
+                "pages": [
+                    {
+                        "name": "页面1",
+                        "elements": [
+                            {
+                                "name": "问题1",
+                                "type": "checkbox",
+                                "title": "What do you teach",
+                                "choices": [
+                                    {
+                                        "text": "French",
+                                        "value": "Item 1"
+                                    },
+                                    {
+                                        "text": "Math",
+                                        "value": "Item 2"
+                                    },
+                                    {
+                                        "text": "English",
+                                        "value": "Item 3"
+                                    },
+                                    {
+                                        "text": "Science",
+                                        "value": "Item 4"
+                                    },
+                                    {
+                                        "text": "History",
+                                        "value": "Item 5"
+                                    },
+                                    {
+                                        "text": "Biology",
+                                        "value": "Item 6"
+                                    },
+                                    {
+                                        "text": "Technology",
+                                        "value": "Item 7"
+                                    },
+                                    {
+                                        "text": "PE",
+                                        "value": "Item 8"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "问题2",
+                                "type": "dropdown",
+                                "title": "How many years of experience do you have",
+                                "choices": [
+                                    {
+                                        "text": "1",
+                                        "value": "Item 1"
+                                    },
+                                    {
+                                        "text": "2",
+                                        "value": "Item 2"
+                                    },
+                                    {
+                                        "text": "3",
+                                        "value": "Item 3"
+                                    },
+                                    {
+                                        "text": "4",
+                                        "value": "Item 4"
+                                    },
+                                    {
+                                        "text": "5",
+                                        "value": "Item 5"
+                                    },
+                                    {
+                                        "text": "6",
+                                        "value": "Item 6"
+                                    },
+                                    {
+                                        "text": "7",
+                                        "value": "Item 7"
+                                    },
+                                    {
+                                        "text": "8",
+                                        "value": "Item 8"
+                                    },
+                                    {
+                                        "text": "9",
+                                        "value": "Item 9"
+                                    },
+                                    {
+                                        "text": "10",
+                                        "value": "Item 10"
+                                    }
+                                ],
+                                "otherText": "Above",
+                                "showOtherItem": true
+                            }
+                        ]
+                    },
+                    {
+                        "name": "页面2",
+                        "elements": [
+                            {
+                                "name": "问题3",
+                                "type": "text",
+                                "title": "What is your greatest challenge"
+                            }
+                        ]
+                    }
+                ],
+                "title": "老师调查"
+            },
+            "creation_date": "2023-11-22T21:34:09.000Z",
+            "last_modified": "2023-12-07T03:43:30.000Z",
+            "target_group": -1,
+            "levels": [
+                0
+            ],
+            "total_questions": 3,
+            "deleted": 0,
+            "author": -1,
+            "type": "survey"
+        },
+        "responses": [
+            {
+                "survey_id": "8ac1bf29-2bb7-417a-9b34-d7be309a71db",
+                "version": 1,
+                "evaluation_id": "49ee130b-6bd0-48ab-8a8c-41c51e5f96ea",
+                "response_id": 1,
+                "response_data": {
+                    "问题1": [
+                        "Item 7"
+                    ],
+                    "问题2": "Item 6",
+                    "问题3": "Convey concept"
+                },
+                "submission_date": "2023-12-12T01:45:43.000Z",
+                "username": null,
+                "subject": null
+            },
+            {
+                "survey_id": "8ac1bf29-2bb7-417a-9b34-d7be309a71db",
+                "version": 1,
+                "evaluation_id": "49ee130b-6bd0-48ab-8a8c-41c51e5f96ea",
+                "response_id": 2,
+                "response_data": {
+                    "问题1": [
+                        "Item 5",
+                        "Item 4"
+                    ],
+                    "问题2": "Item 10",
+                    "问题3": "Student's learning attitude"
+                },
+                "submission_date": "2023-12-12T01:48:24.000Z",
+                "username": null,
+                "subject": null
+            }
+        ]
+    }
+}

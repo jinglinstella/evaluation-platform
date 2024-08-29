@@ -1,0 +1,119 @@
+
+
+  .main {
+    
+    padding: 8rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1; 
+    position: relative; 
+    background: linear-gradient(146deg, rgba(76, 202, 241, 0.34) -3.25%, rgba(7, 24, 39, 0.00) 63.1%);
+    
+  }
+
+
+  .whiteBg{
+    border-radius: var(--card-radius, 16px);
+    background: var(--background-paper, #FFF);
+
+    /* shadow/card */
+    box-shadow: 0px 12px 24px -4px rgba(145, 158, 171, 0.12), 0px 0px 2px 0px rgba(145, 158, 171, 0.20);
+  }
+
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 1fr);  */
+    grid-template-rows: 1fr;
+    /* gap: 50px;  */
+    max-width: 122rem;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+    background: linear-gradient(180deg, #091F2B 29.67%, rgba(9, 31, 43, 0.64) 99.77%);
+    backdrop-filter: blur(25px);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    
+    /* padding-right: 20px; */
+    /* min-height: 40rem; */
+    
+  }
+
+.title0{
+
+  color: #1F315F;
+
+/* Headline/Large */
+  font-family: Futura;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+
+}
+
+.title1{
+  color: #1F315F;
+  font-family: Futura;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+
+}
+
+.title2{
+  color: #1F315F;
+  font-family: Futura;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+.score{
+  background: var(--number-gradient, linear-gradient(180deg, #92F3CA 18.75%, rgba(42, 188, 251, 0.74) 85.94%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Futura;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 118px;
+  height: 82px;
+  flex-shrink: 0;
+  padding:0;
+  margin:0;
+  }
+  
+
+.p0{
+  color: #F0F0F0;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+  
+
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Horizontally center the content */
+  align-items: center;      /* Vertically center the content */
+  height: 100%;        
+  margin-bottom:20px; 
+  margin-left: 50px;    
+}
+

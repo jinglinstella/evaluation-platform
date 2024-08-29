@@ -1,0 +1,614 @@
+{
+    "success": true,
+    "data": {
+        "class": {
+            "rubrics": [
+                [
+                    {
+                        "name": "教学方法v2",
+                        "criteria": [
+                            {
+                                "name": "课程设计v2",
+                                "maxPoints": 100,
+                                "description": "Designv2"
+                            },
+                            {
+                                "name": "数据收集",
+                                "maxPoints": 5,
+                                "description": "Data Collection"
+                            }
+                        ],
+                        "maxPoints": 105
+                    },
+                    {
+                        "name": "教学方法2",
+                        "criteria": [
+                            {
+                                "name": "课程设计2",
+                                "maxPoints": 10,
+                                "description": "Design2"
+                            },
+                            {
+                                "name": "数据收集2",
+                                "maxPoints": 5,
+                                "description": "Data Collection2"
+                            }
+                        ],
+                        "maxPoints": 15
+                    }
+                ],
+                [
+                    {
+                        "name": "教学方法",
+                        "criteria": [
+                            {
+                                "name": "课程设计",
+                                "maxPoints": 10,
+                                "description": "Design"
+                            },
+                            {
+                                "name": "数据收集",
+                                "maxPoints": 5,
+                                "description": "Data Collection"
+                            }
+                        ],
+                        "maxPoints": 15
+                    },
+                    {
+                        "name": "教学方法2",
+                        "criteria": [
+                            {
+                                "name": "课程设计2",
+                                "maxPoints": 10,
+                                "description": "Design2"
+                            },
+                            {
+                                "name": "数据收集2",
+                                "maxPoints": 5,
+                                "description": "Data Collection2"
+                            }
+                        ],
+                        "maxPoints": 15
+                    }
+                ],
+                [
+                    {
+                        "name": "教学方法v2",
+                        "criteria": [
+                            {
+                                "name": "课程设计v2",
+                                "maxPoints": 100,
+                                "description": "Designv2"
+                            },
+                            {
+                                "name": "数据收集",
+                                "maxPoints": 5,
+                                "description": "Data Collection"
+                            }
+                        ],
+                        "maxPoints": 15
+                    },
+                    {
+                        "name": "教学方法2",
+                        "criteria": [
+                            {
+                                "name": "课程设计2",
+                                "maxPoints": 10,
+                                "description": "Design2"
+                            },
+                            {
+                                "name": "数据收集2",
+                                "maxPoints": 5,
+                                "description": "Data Collection2"
+                            }
+                        ],
+                        "maxPoints": 15
+                    }
+                ]
+            ],
+            "metric_names": [
+                "Data 1",
+                "Test 1126",
+                "Test 1-2"
+            ],
+            "response_details": [
+                [
+                    [
+                        [
+                            99,
+                            1
+                        ],
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    [
+                        [
+                            99,
+                            5
+                        ],
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    [
+                        [
+                            88,
+                            5
+                        ],
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    [
+                        [
+                            88,
+                            5
+                        ],
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    [
+                        [
+                            88,
+                            5
+                        ],
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    [
+                        [
+                            3,
+                            5
+                        ],
+                        [
+                            4,
+                            5
+                        ]
+                    ],
+                    [
+                        [
+                            50,
+                            5
+                        ],
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    [
+                        [
+                            66,
+                            5
+                        ],
+                        [
+                            6,
+                            5
+                        ]
+                    ]
+                ],
+                [
+                    [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            3,
+                            4
+                        ]
+                    ],
+                    [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ]
+                    ]
+                ]
+            ],
+            "scores": [
+                [
+                    [
+                        72.625,
+                        4.5
+                    ],
+                    [
+                        5.75,
+                        4.25
+                    ]
+                ],
+                [
+                    [
+                        1.5,
+                        2.5
+                    ],
+                    [
+                        3.5,
+                        4.5
+                    ]
+                ],
+                null
+            ],
+            "comments": [
+                [
+                    [
+                        "还不错",
+                        "comment a",
+                        "aaa",
+                        "aaa",
+                        "aaa",
+                        "aaa",
+                        "6",
+                        "5"
+                    ],
+                    [
+                        "还不错v222",
+                        "comment b",
+                        "aaaa",
+                        "aaaa",
+                        "aaaa",
+                        "aaaa",
+                        "6",
+                        "5"
+                    ]
+                ],
+                [
+                    [
+                        "ab",
+                        "a"
+                    ],
+                    [
+                        "abc",
+                        "ab啊多少分"
+                    ]
+                ],
+                []
+            ],
+            "comment_questions": [
+                [
+                    "请输入对本次上课学生表现的综合评价v2",
+                    "请输入对本次授课老师的综合评价v2"
+                ],
+                [
+                    "请输入对本次上课学生表现的综合评价",
+                    "请输入对本次授课老师的综合评价"
+                ],
+                [
+                    "请输入对本次上课学生表现的综合评价v2",
+                    "请输入对本次授课老师的综合评价v2"
+                ]
+            ],
+            "subjects": [
+                [
+                    0,
+                    null,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    1
+                ],
+                []
+            ],
+            "response_scores": [
+                [
+                    0.85,
+                    0.89,
+                    0.858333,
+                    0.858333,
+                    0.858333,
+                    0.141667,
+                    0.5666666666666667,
+                    0.6833333333333333
+                ],
+                [
+                    0.333333,
+                    0.466667
+                ],
+                []
+            ],
+            "stats": {
+                "overall": 57,
+                "form_stats": [
+                    [
+                        87.125,
+                        120,
+                        73
+                    ],
+                    [
+                        12,
+                        30,
+                        40
+                    ],
+                    [
+                        null,
+                        null,
+                        null
+                    ]
+                ],
+                "rubric_stats": [
+                    [
+                        77.125,
+                        10
+                    ],
+                    [
+                        4,
+                        8
+                    ],
+                    null
+                ]
+            }
+        },
+        "prep": {
+            "rubrics": [
+                [
+                    {
+                        "name": "教学方法v2",
+                        "criteria": [
+                            {
+                                "name": "课程设计v2",
+                                "maxPoints": 100,
+                                "description": "Designv2"
+                            },
+                            {
+                                "name": "数据收集",
+                                "maxPoints": 5,
+                                "description": "Data Collection"
+                            }
+                        ],
+                        "maxPoints": 105
+                    },
+                    {
+                        "name": "教学方法2",
+                        "criteria": [
+                            {
+                                "name": "课程设计2",
+                                "maxPoints": 10,
+                                "description": "Design2"
+                            },
+                            {
+                                "name": "数据收集2",
+                                "maxPoints": 5,
+                                "description": "Data Collection2"
+                            }
+                        ],
+                        "maxPoints": 15
+                    }
+                ],
+                [
+                    {
+                        "name": "教学方法",
+                        "comments": "false",
+                        "criteria": [
+                            {
+                                "name": "数据收集",
+                                "maxPoints": 5,
+                                "description": "Data Collection"
+                            },
+                            {
+                                "name": "课程设计",
+                                "maxPoints": 10,
+                                "description": "Design"
+                            },
+                            {
+                                "name": "数据收集测试添加",
+                                "maxPoints": 5,
+                                "description": "Data Collection测试添加"
+                            }
+                        ],
+                        "maxPoints": 20
+                    },
+                    {
+                        "name": "教学方法2",
+                        "criteria": [
+                            {
+                                "name": "课程设计2",
+                                "maxPoints": 10,
+                                "description": "Design2"
+                            },
+                            {
+                                "name": "数据收集2",
+                                "maxPoints": 5,
+                                "description": "Data Collection2"
+                            }
+                        ],
+                        "maxPoints": 15
+                    }
+                ],
+                [
+                    {
+                        "name": "教学方法",
+                        "comments": "false",
+                        "criteria": [
+                            {
+                                "name": "数据收集",
+                                "maxPoints": 5,
+                                "description": "Data Collection"
+                            },
+                            {
+                                "name": "课程设计",
+                                "maxPoints": 10,
+                                "description": "Design"
+                            },
+                            {
+                                "name": "数据收集测试添加",
+                                "maxPoints": 5,
+                                "description": "Data Collection测试添加"
+                            }
+                        ],
+                        "maxPoints": 20
+                    },
+                    {
+                        "name": "教学方法2",
+                        "criteria": [
+                            {
+                                "name": "课程设计2",
+                                "maxPoints": 10,
+                                "description": "Design2"
+                            },
+                            {
+                                "name": "数据收集2",
+                                "maxPoints": 5,
+                                "description": "Data Collection2"
+                            }
+                        ],
+                        "maxPoints": 15
+                    }
+                ]
+            ],
+            "metric_names": [
+                "prep_test",
+                "simulated_test",
+                "simulated_test"
+            ],
+            "response_details": [
+                [
+                    [
+                        [
+                            5,
+                            10,
+                            5
+                        ],
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    [
+                        [
+                            5,
+                            10,
+                            4
+                        ],
+                        [
+                            10,
+                            5
+                        ]
+                    ]
+                ]
+            ],
+            "scores": [
+                null,
+                [
+                    [
+                        5,
+                        10,
+                        4.5
+                    ],
+                    [
+                        10,
+                        5
+                    ]
+                ],
+                null
+            ],
+            "comments": [
+                [],
+                [
+                    [
+                        "comment a2",
+                        "comment a2"
+                    ],
+                    [
+                        "comment 3",
+                        "comment 3"
+                    ]
+                ],
+                []
+            ],
+            "comment_questions": [
+                [
+                    "请输入对本次上课学生表现的综合评价v2",
+                    "请输入对本次授课老师的综合评价v2"
+                ],
+                [
+                    "请输入对本次上课学生表现的综合评价",
+                    "请输入对本次授课老师的综合评价"
+                ],
+                [
+                    "请输入对本次上课学生表现的综合评价",
+                    "请输入对本次授课老师的综合评价"
+                ]
+            ],
+            "subjects": [
+                [],
+                [
+                    null
+                ],
+                []
+            ],
+            "response_scores": [
+                [],
+                [
+                    0.35,
+                    0.34
+                ],
+                []
+            ],
+            "stats": {
+                "overall": 29,
+                "form_stats": [
+                    [
+                        34.5,
+                        120,
+                        29
+                    ],
+                    [
+                        null,
+                        null,
+                        null
+                    ],
+                    [
+                        null,
+                        null,
+                        null
+                    ]
+                ],
+                "rubric_stats": [
+                    [
+                        19.5,
+                        15
+                    ],
+                    null,
+                    null
+                ]
+            }
+        },
+        "other": {
+            "rubrics": [],
+            "metric_names": [],
+            "response_details": [],
+            "scores": [],
+            "comments": [],
+            "comment_questions": [],
+            "subjects": [],
+            "response_scores": [],
+            "stats": {
+                "overall": null,
+                "form_stats": [],
+                "rubric_stats": []
+            }
+        },
+        "survey": {
+            "score": 0.8
+        },
+        "school_name": "实验中学",
+        "overall_score": null
+    }
+}

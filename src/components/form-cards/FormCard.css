@@ -1,0 +1,167 @@
+.course-card {
+    width: 270px;
+    height: 270px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.course-card:hover {
+    transform: scale(1.03);
+}
+
+.green {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/evaluations/prep_eval_card_bg.jpeg");
+}
+.green .label-tab {
+    background-color: #003d06;
+}
+.green .label-name, .green {
+    color: #093c0d;
+}
+
+.blue {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/evaluations/survey_card_bg.jpeg");
+}
+.blue .label-tab {
+    background-color: #00456b;
+}
+.blue .label-name, .blue {
+    color: #00114b;
+}
+
+.purple {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/evaluations/course_eval_card_bg.jpeg");
+}
+.purple .label-tab {
+    background-color: #4e0072;
+}
+.purple .label-name, .purple {
+    color: #3d0d59;
+}
+
+.gray {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #303132;
+    background-image: url("/assets/evaluations/other_eval_card_bg.jpeg");
+}
+.gray .label-tab {
+    background-color: #5a5b5c;
+}
+.gray .label-name, .gray {
+    color: #303132;
+}
+
+.label-container {
+    position: relative;
+    margin: 0px 50px 0px 25px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.course-card .label {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.course-card .label-tab {
+    width: 62px; /* Default width and max width */
+    flex-shrink: 1;
+    min-width: fit-content;
+    height: 40px;
+    padding: 0px 2px;
+    /* border: 2px solid #000; */
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-content {
+    flex-grow: 1;
+    min-width: 80px;
+    height: 40px;
+    /* border: 2px solid #000; */
+    background-color: #dfdfdf;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.label-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-title {
+    height: 50px;
+    line-height: 1.25;
+    margin: 15px 35px 15px 25px;
+    color: #fff;
+    overflow: visible;
+}
+
+.clear-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    transition: transform 0.2s;
+}
+.clear-icon:hover {
+    transform: scale(1.5);
+}
+
+.form-card-icons {
+    color: white;
+    transform: scale(1);
+}
+
+/* .more-vert:hover {
+    transform: scale(1.1);
+} */
+
+.arrow-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.2s;
+}
+
+.arrow-right:hover {
+    transform: scale(1.2);
+}
+
+.course-card.add-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    row-gap: 20px;
+    user-select: none;
+    cursor: pointer;
+}

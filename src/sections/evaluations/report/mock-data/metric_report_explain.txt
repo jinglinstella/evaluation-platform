@@ -1,0 +1,468 @@
+{
+    "class": {
+        "rubrics": [
+            [ //general subject 1
+                { //criteria 1
+                    "name": "Student Performance",
+                    "criteria": [
+                        {
+                            "name": "Collaboration",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Presentation",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                },
+                { //criteria 2
+                    "name": "Teacher Performance",
+                    "criteria": [
+                        {
+                            "name": "Syllabus Design",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Lecture Delivery",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                }
+            ],
+            [ //general subject2
+                {
+                    "name": "Student Performance",
+                    "criteria": [
+                        {
+                            "name": "Collaboration",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Presentation",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                },
+                {
+                    "name": "Teacher Performance",
+                    "criteria": [
+                        {
+                            "name": "Syllabus Design",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Lecture Delivery",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                }
+            ],
+            [
+                {
+                    "name": "Student Performance",
+                    "criteria": [
+                        {
+                            "name": "Collaboration",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Presentation",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                },
+                {
+                    "name": "Teacher Performance",
+                    "criteria": [
+                        {
+                            "name": "Syllabus Design",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Lecture Delivery",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                }
+            ],
+            [
+                {
+                    "name": "Student Performance",
+                    "criteria": [
+                        {
+                            "name": "Collaboration",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Presentation",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                },
+                {
+                    "name": "Teacher Performance",
+                    "criteria": [
+                        {
+                            "name": "Syllabus Design",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Lecture Delivery",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                }
+            ],
+            [
+                {
+                    "name": "Student Performance",
+                    "criteria": [
+                        {
+                            "name": "Collaboration",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Presentation",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                },
+                {
+                    "name": "Teacher Performance",
+                    "criteria": [
+                        {
+                            "name": "Syllabus Design",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        },
+                        {
+                            "name": "Lecture Delivery",
+                            "maxPoints": 20,
+                            "description": "Lorem ipsum dolor sit amet"
+                        }
+                    ],
+                    "maxPoints": 40
+                }
+            ]
+
+        ],
+        "metric_names": [
+            "Biology", //corresponds to general subject 1
+            "Math",
+            "English",
+            "Art",
+            "Physics"
+        ],
+        "response_details": [
+            [ //corresponds to general subject 1; this subject receives one form
+                [ //form 1
+                    [ //criteria 1
+                        14,
+                        15
+                    ],
+                    [ //criteria 2
+                        15,
+                        16
+                    ]
+                ]
+            ],
+            [//corresponds to general subject 2; this subject receives two forms
+                [ //form 1
+                    [
+                        14,
+                        17
+                    ],
+                    [
+                        12,
+                        16
+                    ]
+                ],
+                [ //form 2
+                    [
+                        16,
+                        19
+                    ],
+                    [
+                        14,
+                        18
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        14,
+                        15
+                    ],
+                    [
+                        15,
+                        16
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        14,
+                        15
+                    ],
+                    [
+                        15,
+                        16
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        14,
+                        15
+                    ],
+                    [
+                        15,
+                        16
+                    ]
+                ]
+            ]
+        ],
+        "scores": [
+            [//corresponds to general subject 1; below is the avg score
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    16
+                ]
+            ],
+            [
+                [
+                    15,
+                    18
+                ],
+                [
+                    13,
+                    17
+                ]
+            ],
+            [
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    16
+                ]
+            ],
+            [
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    16
+                ]
+            ],
+            [
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    16
+                ]
+            ]
+        ],
+        "comments": [
+            [
+                [
+                    "Excellent"
+                ],
+                [
+                    "This is the course every student should take"
+                ]
+            ],
+            [
+                [
+                    "Excellent",
+                    "Good"
+                ],
+                [
+                    "This is the perfect course",
+                    "Overall a good course but I wish the pace could be slower"
+                ]
+            ],
+            [
+                [
+                    "Fair"
+                ],
+                [
+                    "Not bad"
+                ]
+            ],
+            [
+                [
+                    "Fair"
+                ],
+                [
+                    "Not bad"
+                ]
+            ],
+            [
+                [
+                    "Fair"
+                ],
+                [
+                    "Not bad"
+                ]
+            ]
+        ],
+        "comment_questions": [
+            [
+                "Level",
+                "Comment Details"
+            ],
+            [
+                "Level",
+                "Comment Details"
+            ],
+            [
+                "Level",
+                "Comment Details"
+            ],
+            [
+                "Level",
+                "Comment Details"
+            ],
+            [
+                "Level",
+                "Comment Details"
+            ]
+        ],
+        "subjects": [
+            [ //corresponds to general subject 1; this subject receives one form
+                1
+            ],
+            [ //corresponds to general subject 1; this subject receives two forms
+                2,
+                2
+            ],
+            [
+                0
+            ],
+            [
+                3
+            ],
+            [
+                4
+            ]
+        ],
+        "response_scores": [
+            [
+                0.5
+            ],
+            [
+                0.49, //form1 criteria1 + criteria2
+                0.67 //form2 criteria1 + criteria2
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ],
+            [
+                0.5
+            ]
+        ],
+        "stats": {
+            "overall": 85.4,
+            "form_stats": [//form_stats means calculated by form
+                [
+                    50, //corresponds to general subject 1 total score (averaged)
+                    100, //general subject 1 max points
+                    50 //50/100
+                ],
+                [
+                    58,
+                    100,
+                    58
+                ],
+                [
+                    50,
+                    100,
+                    50
+                ],
+                [
+                    50,
+                    100,
+                    50
+                ],
+                [
+                    50,
+                    100,
+                    50
+                ]
+            ],
+            "rubric_stats": [//rubric_stats means calculated by rubric
+                [
+                    29,
+                    31
+                ],
+                [
+                    33, //(form1 criteria1 + form2 criteria1)/2
+                    30 //(form1 criteria2 + form2 criteria2)/2
+                ],
+                [
+                    29,
+                    31
+                ],
+                [
+                    29,
+                    31
+                ],
+                [
+                    29,
+                    31
+                ]
+            ]
+        }
+    },
+    "prep": null
+    "other": null
+    "survey": {
+        "score": null
+    },
+    "school_name": "实验小学"
+}
